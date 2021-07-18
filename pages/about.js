@@ -1,4 +1,10 @@
+import {useRouter} from 'next/router'
 export default function about() {
+
+    let {route} = useRouter();
+    let router = useRouter();
+
+  console.log(router)
   return (
     <div>
       <h1>About page</h1>
